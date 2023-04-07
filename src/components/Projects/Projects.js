@@ -7,6 +7,8 @@ import Airbnb from "../../Assets/Projects/airbn.png";
 import calculator from "../../Assets/Projects/calculator.png";
 import tenzies from "../../Assets/Projects/tenzies.png";
 import bluespace from "../../Assets/Projects/bluespace.png";
+import NavalltyWorld from "../../Assets/Projects/NavelltyBooks.png";
+import MiniTweet from "../../Assets/Projects/MiniTweet.png";
 
 function Projects() {
   return (
@@ -20,6 +22,36 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MiniTweet}
+              isBlog={false}
+              title="MiniTweet"
+              description="Welcome to MiniTweet, a social media platform designed for those who value brevity and simplicity. Share your thoughts and ideas with the world in short and concise messages, connect with like-minded individuals."
+              ghLink="https://github.com/The-SaqlainNawaz/MiniTweet"
+              // demoLink="https://github.com/The-SaqlainNawaz/MiniTweet"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={NavalltyWorld}
+              isBlog={false}
+              title="Novelty Books"
+              description="Software application that allows users to browse, purchase, and manage digital and physical books. The app provides a user-friendly interface that enables customers to search for books by title, author, genre, or other criteria. "
+              ghLink="https://github.com/The-SaqlainNawaz/Novelty_Books"
+              // demoLink="https://github.com/The-SaqlainNawaz/Novelty_Books"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Airbnb}
+              isBlog={false}
+              title="Airbnb clone"
+              description="The Airbnb Clone React is a front-end only project that demonstrates how React can be used to create a functional and attractive user interface for a web application. However, it does not include any backend functionality."
+              ghLink="https://github.com/The-SaqlainNawaz/Airbnb-Clone-React"
+              // demoLink="https://github.com/The-SaqlainNawaz/Airbnb-Clone-React"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tenzies}
@@ -49,17 +81,6 @@ function Projects() {
               description="Memory game is a game where players match pairs of cards that are arranged face down on a game board. Players flip two cards at a time and try to find a match. If the cards match, they are removed from the board, and if they don't, they are flipped back over. The game ends when all pairs of cards are matched."
               ghLink="https://github.com/The-SaqlainNawaz/memory_game"
               demoLink="https://github.com/The-SaqlainNawaz/memory_game"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Airbnb}
-              isBlog={false}
-              title="Airbnb clone"
-              description="The Airbnb Clone React is a front-end only project that demonstrates how React can be used to create a functional and attractive user interface for a web application. However, it does not include any backend functionality."
-              ghLink="https://github.com/The-SaqlainNawaz/Airbnb-Clone-React"
-              demoLink="https://github.com/The-SaqlainNawaz/Airbnb-Clone-React"
             />
           </Col>
 
