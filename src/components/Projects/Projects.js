@@ -9,7 +9,7 @@ import tenzies from "../../Assets/Projects/tenzies.png";
 import bluespace from "../../Assets/Projects/bluespace.png";
 import NavalltyWorld from "../../Assets/Projects/NavelltyBooks.png";
 import MiniTweet from "../../Assets/Projects/MiniTweet.png";
-
+import Twitilify from "../../Assets/Projects/twitlify.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -24,12 +24,22 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={Twitilify}
+              isBlog={false}
+              title="Twitlify"
+              description="Twitlify is a platform where you can express yourself, discover exciting content, and connect with like-minded individuals. Whether you're here to share your thoughts, follow your favorite accounts, or explore trending topics, we have a vibrant and inclusive community waiting for you."
+              ghLink="https://github.com/The-SaqlainNawaz/Twitilify"
+              demoLink="https://twitlify-alpha-peach.vercel.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={MiniTweet}
               isBlog={false}
               title="MiniTweet"
               description="Welcome to MiniTweet, a social media platform designed for those who value brevity and simplicity. Share your thoughts and ideas with the world in short and concise messages, connect with like-minded individuals."
               ghLink="https://github.com/The-SaqlainNawaz/MiniTweet"
-              // demoLink="https://github.com/The-SaqlainNawaz/MiniTweet"
+            // demoLink="https://github.com/The-SaqlainNawaz/MiniTweet"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -39,7 +49,7 @@ function Projects() {
               title="Novelty Books"
               description="Software application that allows users to browse, purchase, and manage digital and physical books. The app provides a user-friendly interface that enables customers to search for books by title, author, genre, or other criteria. "
               ghLink="https://github.com/The-SaqlainNawaz/Novelty_Books"
-              // demoLink="https://github.com/The-SaqlainNawaz/Novelty_Books"
+            // demoLink="https://github.com/The-SaqlainNawaz/Novelty_Books"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -49,7 +59,7 @@ function Projects() {
               title="Airbnb clone"
               description="The Airbnb Clone React is a front-end only project that demonstrates how React can be used to create a functional and attractive user interface for a web application. However, it does not include any backend functionality."
               ghLink="https://github.com/The-SaqlainNawaz/Airbnb-Clone-React"
-              // demoLink="https://github.com/The-SaqlainNawaz/Airbnb-Clone-React"
+            // demoLink="https://github.com/The-SaqlainNawaz/Airbnb-Clone-React"
             />
           </Col>
           <Col md={4} className="project-card">
